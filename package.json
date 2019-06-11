@@ -1,0 +1,19 @@
+{
+    "name": "test-headless-delivery",
+    "version": "1.0.0",
+    "description": "Test headless delivery api",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Allen Ziegenfus <allen.ziegenfus@liferay.com> (https://www.liferay.com/web/allen.ziegenfus/blog)",
+    "license": "ISC",
+    "dependencies": {
+        "btoa": "^1.2.1"
+    },
+    "devDependencies": {
+        "dateformat": "^2.0.0",
+        "uri-templates": "^0.2.0",
+        "winston": "^2.3.1"
+    }
+}
