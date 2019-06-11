@@ -113,6 +113,10 @@ var paths = {
 	results: "./results",
 };
 
+if (!fs.existsSync(paths.results)){
+    fs.mkdirSync(paths.results);
+}
+
 fs.readdir(paths.commands, function(err, command_files) {
 	command_files.forEach(function(command_file) {
 		var cmd = JSON.parse(fs.readFileSync(paths.commands + "/" + command_file));
